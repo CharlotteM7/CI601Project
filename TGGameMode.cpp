@@ -9,4 +9,7 @@
 
 
 
-
+ void ATGGameMode::ResetGoalLocations()
+ {
+     GoalLocations.Empty(); 
+ }
