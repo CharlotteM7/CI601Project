@@ -26,7 +26,8 @@ public:
 
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Game")
     FVector GoalLocation3;
-    
-
+   
+    UFUNCTION(BlueprintCallable, Category = "Game")
+    void ResetGoalLocations();
 
 };
